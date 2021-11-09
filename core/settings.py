@@ -181,3 +181,6 @@ SOCIAL_AUTH_FACEBOOK_PROFILE_EXTRA_PARAMS = {
     'fields': 'id, name, email'
 }
 SOCIAL_AUTH_USER_FIELDS = ['email', 'username', 'first_name', 'password']
+
+import heroku
+django_heroku.settings(locals())
